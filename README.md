@@ -7,16 +7,16 @@ Increase the success rate of marketing campaigns by targeting the right customer
 # Exploratory Data Analysis: 
 The dataset contains around 411K rows and had 21 columns of which 10 were numerical and rest categorical.
 None of the columns had empty or null values 
-# there are 5 numeric columns 
-# age,duration,campaign,pdays,previous -  have to be checked for any outliers - No need for Coercing 
-# pdays - 999 means client was not previously contacted - This needs to be properly interpreted. Can be replaced with 0
-# there are 5 columns with float data type
-# emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m,  nr.employed -  have to be checked for any outliers - No need for Corcing 
+there are 5 numeric columns 
+ age,duration,campaign,pdays,previous -  have to be checked for any outliers - No need for Coercing 
+pdays - 999 means client was not previously contacted - This needs to be properly interpreted. Can be replaced with 0
+there are 5 columns with float data type
+emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m,  nr.employed -  have to be checked for any outliers - No need for Corcing 
 ![numericalfeatures](https://github.com/user-attachments/assets/8e9e0b4b-66ca-424c-9142-d4b3ac7e472b)
 
-# 10 columns with categorical values - which can be coerced using label encoding 
-# job,marital, education,default,housing, loan, contact, month, day_of_week, poutcome
-# Default , Housing and loan are Binary values 
+ 10 columns with categorical values - which can be coerced using label encoding 
+ job,marital, education,default,housing, loan, contact, month, day_of_week, poutcome
+ Default , Housing and loan are Binary values 
 Admin, Blue_collar and technician contributed to most of job data
 Marital status - Unknown seems to be not present at all
 University degree holders seem to contribute more to the Campaign
