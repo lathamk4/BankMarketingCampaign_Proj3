@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6976d33e-26cf-49c5-9f81-eab1a1b9eccf)# Goal:
+# Goal:
 The goal of the project is to develop and compare four machine learning models—Logistic Regression, Decision Tree, SVC, and KNN—to predict customer response to a bank's marketing campaign (whether they will subscribe or not).
 
 # Business Objective: 
@@ -42,3 +42,9 @@ A simple logisticregression model is fit and the accuracy came to 90% which is b
 
 From the above comaprison, the SVM model seems to be the best overall model. It has the best test accuracy, precision, recall, and F1-score, but the training time is a drawback.
 If fast training time is a requirement then KNN can be used. It is very fast with a slightly lower performance than SVM but still gives good accuracy and F1-score.
+
+# Improving the Model :
+
+Feature Engineering :  #pdays does not seem to be contributing much to the prediction and hence can be dropped and model can be trained again 
+Hyper Parameter tuning and Grid Search : Tried doing the same for all 4 models , however its taking long time and hence could not get to completion. But have placed the code in jupyter notebook. 
+Performance metric: Since grid search is taking huge time , couldnt get to the performance metric after tuning. 
